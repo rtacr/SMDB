@@ -66,17 +66,6 @@ class _InitPageState extends State<InitPage> {
                               controller: textCont,
                             ),
                           ),
-                          // SizedBox(width: 16),
-                          // IconButton(
-                          //   icon: Icon(Icons.search),
-                          //   onPressed: () {
-                          //     Navigator.push(context,
-                          //         MaterialPageRoute(builder: (context) {
-                          //       return HomePage(userName: textCont.text);
-                          //     }));
-                          //     //  getData(handleCont.text);
-                          //   },
-                          // ),
                         ],
                       ),
                     ),

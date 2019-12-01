@@ -16,7 +16,6 @@ class CircleProgress extends CustomPainter{
   @override
   void paint(Canvas canvas, Size size) {
 
-    //this is base circle
     Paint outerCircle = Paint()
         ..strokeWidth = 10
         ..color = Colors.transparent
@@ -31,7 +30,7 @@ class CircleProgress extends CustomPainter{
     Offset center = Offset(size.width/2, size.height/2);
     double radius = min(size.width/2,size.height/2) - 10;
 
-    canvas.drawCircle(center, radius, outerCircle); // this draws main outer circle
+    canvas.drawCircle(center, radius, outerCircle);
 
     double angle = 2 * pi * (currentProgress/100);
 
@@ -40,7 +39,6 @@ class CircleProgress extends CustomPainter{
 
   @override
   bool shouldRepaint(CustomPainter oldDelegate) {
-    // TODO: implement shouldRepaint
     return true;
   }
 }

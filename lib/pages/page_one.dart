@@ -92,46 +92,6 @@ bool lookLeft(String a, String b) {
 }
 
 bool checkError(String item) {
-  // int l = 0, h = array1.length - 1, m = l + ((h-l) / 2).round();
-  // while (l < h && h > m && l < m) {
-  //   var temp = array1[m];
-  //   if (array1[m] == item)
-  //     return true;
-  //   else if (lookRight(array1[m], item)) {
-  //     l = m;
-  //   } else if (lookLeft(array1[m], item)) {
-  //     h = m;
-  //   }
-  //   m = l + ((h - l) / 2).round();
-  // }
-
-  // l = 0;
-  // h = array2.length- 1;
-  // m = l;
-  // while (l < h) {
-  //   m = l +  ((h - l) / 2).round();
-  //   if (array2[m] == item)
-  //     return true;
-  //   else if (lookRight(array2[m], item)) {
-  //     l = m;
-  //   } else if (lookLeft(array2[m], item)) {
-  //     h = m;
-  //   }
-  // }
-
-  // l = 0;
-  // h = array3.length- 1;
-  // m = l;
-  // while (l < h) {
-  //   m = l + ((h - l) / 2).round();
-  //   if (array3[m] == item)
-  //     return true;
-  //   else if (lookRight(array3[m], item)) {
-  //     l = m;
-  //   } else if (lookLeft(array3[m], item)) {
-  //     h = m;
-  //   }
-  // }
 
   if (array1.contains(item)) {
     return true;
@@ -142,16 +102,6 @@ bool checkError(String item) {
   }
   print(item);
   return false;
-  // var url = "https://sozluk.gov.tr/gts?ara=" + item;
-  // var response = await http.get(url);
-  // if (response.statusCode == 200) {
-  //   var jsonResponse = convert.jsonDecode(response.body);
-  //   var itemCount = jsonResponse;
-  //   if ((itemCount.toString()).contains("error")) {
-  //     return false;
-  //   }
-  // }
-  // return true;
 }
 
 class _HomePageState extends State<HomePage> {
@@ -402,12 +352,6 @@ class _HomePageState extends State<HomePage> {
                   ),
                 ],
               ),
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          final c = Provider.of<Counter>(context);
-          print("${c.erCount} and ${c.wordCount}");
-        },
       ),
     );
   }
