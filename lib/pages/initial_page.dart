@@ -23,7 +23,6 @@ class _InitPageState extends State<InitPage> {
         centerTitle: true,
       ),
       body: Container(
-        //color: Color(0xFF239BB8),
         color: Theme.of(context).primaryColor,
         child: Stack(
           children: <Widget>[
@@ -41,7 +40,6 @@ class _InitPageState extends State<InitPage> {
                 top: MediaQuery.of(context).size.height / 16,
               ),
               child: Column(
-                //mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: <Widget>[
                   Hero(
                     tag: 'Searchbar',
@@ -55,8 +53,6 @@ class _InitPageState extends State<InitPage> {
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceAround,
                         children: [
-                          // IconButton(icon: Icon(Icons.web)),
-                          // SizedBox(width: 16),
                           Container(
                             width: MediaQuery.of(context).size.width / 2.5,
                             child: TextField(

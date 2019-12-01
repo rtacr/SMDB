@@ -196,8 +196,6 @@ class _HomePageState extends State<HomePage> {
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceAround,
                         children: [
-                          // IconButton(icon: Icon(Icons.web)),
-                          // SizedBox(width: 16),
                           Container(
                             width: MediaQuery.of(context).size.width / 2,
                             child: TextField(
@@ -322,8 +320,7 @@ class _HomePageState extends State<HomePage> {
                             .document(handleCont.text)
                             .collection('tweets')
                             .snapshots(),
-                        //stream: Firestore.instance.collection('test').snapshots(),
-                        builder: (context, snapshot) {
+                       builder: (context, snapshot) {
                           if (!snapshot.hasData)
                             return Center(
                               child: CircularProgressIndicator(),
