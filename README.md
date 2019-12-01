@@ -3,7 +3,7 @@
 Uygulamanın Amacı kişinin sosyal medya hesaplarındaki gönderilerini alıp bu gönderilerin içindeki kelimeleri [Zargan](http://st2.zargan.com/duyuru/Zargan_Turkce_Dilbilimsel_Veritabani.html)'ın açık kaynaklı paylaştığı veritabanındaki kelimlerele karşılaştırmak ve böylelikle kişinin yazım yanlışlarından yola çıkarak kendisine bir puan vermek.
 
 # Gereksinimler
--[Flutter](flutter.dev)
+-[Flutter](http://flutter.dev)
 
 # Eksiklikler
 
