@@ -68,29 +68,6 @@ var alfabe = [
   'z'
 ];
 
-bool lookRight(String a, String b) {
-  int i = 0;
-  while (a.length < i && b.length < i) {
-    if (alfabe.indexOf(a[i]) < alfabe.indexOf(b[i])) {
-      return true;
-    }
-    i++;
-  }
-  return false;
-}
-
-bool lookLeft(String a, String b) {
-  int i = 0;
-  while (a.length < i && b.length < i) {
-    if (alfabe.indexOf(a[i]) > alfabe.indexOf(b[i])) {
-      return true;
-    }
-
-    i++;
-  }
-  return false;
-}
-
 bool checkError(String item) {
 
   if (array1.contains(item)) {
