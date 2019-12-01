@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "778413091110",
+    "firebase_url": "https://sodip-101f5.firebaseio.com",
+    "project_id": "sodip-101f5",
+    "storage_bucket": "sodip-101f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778413091110:android:5c012350bb7a99071a79e7",
+        "android_client_info": {
+          "package_name": "com.example.smdp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778413091110-fo1l0jip624csupkb1qc7dr9gnvamlo0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2R3jje4OxL_8XPsNjEle6vLmB4AdVaEk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778413091110-fo1l0jip624csupkb1qc7dr9gnvamlo0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
