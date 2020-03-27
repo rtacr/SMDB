@@ -28,6 +28,7 @@
 .pub-cache/
 .pub/
 /build/
+/android/app/google-services.dart
 
 # Web related
 lib/generated_plugin_registrant.dart
